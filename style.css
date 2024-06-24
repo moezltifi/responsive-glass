@@ -119,7 +119,10 @@ img{
         height: 60%;
         width: 70%;
     }
-    body::after
+    body::after{
+        clip-path: circle(50% at bottom);
+
+    }
 }@media (min-width:710px) and (max-width: 800px) {
     img{
         width: 200px;
